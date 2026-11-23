@@ -1,20 +1,103 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Campus Lost and Found</title>
+    <title>Campus Lost & Found</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f4ff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #263b80;
+            color: white;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        .container {
+            background: white;
+            margin: 30px auto;
+            padding: 25px;
+            width: 85%;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px #cccccc;
+        }
+
+        h2 {
+            color: #263b80;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #263b80;
+            color: white;
+            border: none;
+            padding: 14px 22px;
+            margin: 10px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #526bd1;
+        }
+
+        footer {
+            background: #263b80;
+            color: white;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Campus Lost & Found</h1>
+    <header>
+        <h1>Campus Lost & Found</h1>
+        <p style="color:white;">
+            Your College Lost and Found Portal
+        </p>
+    </header>
 
-    <h2>Welcome to Our College Portal</h2>
+    <div class="container">
 
-    <p>Lost something? Found something?
-    We are here to help!</p>
+        <h2>Welcome Students!</h2>
 
-    <button>Report Lost Item</button>
+        <p>
+            Lost something? Found something?
+            We are here to help!
+        </p>
 
-    <button>Report Found Item</button>
+        <button onclick="alert('Lost Item Reporting Coming Soon!')">
+            Report Lost Item
+        </button>
+
+        <button onclick="alert('Found Item Reporting Coming Soon!')">
+            Report Found Item
+        </button>
+
+    </div>
+
+    <footer>
+        <p style="color:white;">
+            © 2026 Campus Lost & Found
+        </p>
+    </footer>
 
 </body>
 </html>
